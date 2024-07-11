@@ -3,6 +3,7 @@
 SPA Laravel E-commerce project. E-commerce platform with REST Api, Multiple Auth (admin , editor , user) and admin panel integration.
 
 ## Features:
+
 - Authentication and Authorization (Breeze Starter kit)
 - Multiple Authentication (Admin, Editors, Users)
 - Search (Name, Tag, SKU)
@@ -14,7 +15,6 @@ SPA Laravel E-commerce project. E-commerce platform with REST Api, Multiple Auth
 - payment gateway
 - Site settings
 - Mobile First Design
-
 
 ![Dashboard](https://i.ibb.co/zb5z8jw/spa1.png)
 
@@ -37,6 +37,7 @@ Install frontend dependencies:
 ```bash
   npm install
 ```
+
 Run frontend:
 
 ```bash
@@ -57,13 +58,17 @@ Install dependencies:
   composer install
   npm install
 ```
+
 Create .env file and copy .env.example to .env, create database name and add into .env database name.
 
 Key Generate
+
 ```bash
   php artisan key:generate
 ```
+
 Storage Link
+
 ```bash
   php artisan storage:link
 ```
@@ -92,6 +97,10 @@ Open another terminal for vite:
 
 Open: http://127.0.0.1:8000
 
+**Admin panel credentials**
+admin@mail.com
+12Aa@!b\*
+
 **If you work with order, add stripe key and mail config in .env**
 
 ## Screenshots
@@ -102,13 +111,11 @@ Open: http://127.0.0.1:8000
 ![Orders Chart](https://i.ibb.co/phgCVbw/spa7.png)
 ![Settings](https://i.ibb.co/vsGPXpN/spa5.png)
 
-
 ## Tech Stack
 
 **Client:** Vue.js, Pinia, Axios, Bootstrap, sweetalert2
 
 **Server:** PHP8.2, Laravel10.x, Liveware, Bootstrap
-
 
 ## Authors
 
